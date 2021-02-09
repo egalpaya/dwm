@@ -2,7 +2,7 @@
 
 /* appearance */
 static const unsigned int borderpx  = 10;        /* border pixel of windows */
-static const unsigned int gappx     = 20;        /* gaps between windows */
+static const unsigned int gappx     = 30;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -36,6 +36,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
+	{ NULL, 	NULL,	NULL,		NULL,		NULL,	NULL}
 };
 
 /* layout(s) */
